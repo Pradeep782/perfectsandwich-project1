@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: lightcyan;
+}
+
+header {
+    text-align: center;
+    background-color: burlywood;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: brown;
+}
+
+nav {
+    background-color: black;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.3 rem;
+    font-family: cursive;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 22px;
+    margin: 10px 7px;
+    border-radius: 10px;
+}
+
+nav ul a:hover {
+    color: blue;
+    background-color: aqua;
+}
+
+#navbar {
+    position: relative;
+    bottom: 32px;
+}
+
+#home {
+    width: 100%;
+    height: min-content;
+}
+
+#sectioning {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#sectiondir {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: purple;
+    
+}
+
+#description{
+    margin-left: 450px;
+}
+
+#ingredients{
+    margin-left: 50px;
+}
+
+#directions{
+    margin-left: 700px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: purple;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: purple;
+}
+
+footer {
+    padding: 9px 20px;
+    text-align: center;
+    background-color: tomato;
+}
